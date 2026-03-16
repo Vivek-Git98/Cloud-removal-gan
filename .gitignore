@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Model weights (large files — use Git LFS or cloud storage)
+outputs/*.pth
+outputs/discriminator.pth
+
+# Data (do not commit raw images)
+data/raw/
+data/processed/
+
+# Generated outputs (optionally commit sample images)
+# outputs/samples/
+# outputs/metrics/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flask
+static/generated_image.png
+instance/
